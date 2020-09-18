@@ -178,7 +178,6 @@ header {
 }
 
 //About blurb
-
 .about-blurb {
   padding: 40px 0;
   background: white;
@@ -273,6 +272,52 @@ header {
       z-index: 7;
       background: $maroon;
       mix-blend-mode: overlay;
+    }
+  }
+}
+
+// video section
+
+.video-section {
+  margin-top: 160px;
+
+  .container {
+    .video-player {
+      width: 100%;
+      margin: 0 auto;
+
+      video {
+        width: 100%;
+        outline: none;
+      }
+    }
+
+    .video-content {
+      display: flex;
+      justify-content: space-between;
+      margin: 80px 0 120px;
+
+      .title {
+        width: 50%;
+
+        h3 {
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 1.8rem;
+          letter-spacing: 1.5px;
+          margin: 0;
+        }
+      }
+      .content {
+        width: 50%;
+
+        p {
+          font-size: 1rem;
+          line-height: 2rem;
+          font-weight: 300;
+          margin: 0;
+        }
+      }
     }
   }
 }
